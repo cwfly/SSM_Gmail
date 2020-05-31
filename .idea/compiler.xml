@@ -12,6 +12,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="demo" target="1.8" />
+      <module name="gmall-parent" target="1.8" />
       <module name="gmall-user" target="1.8" />
     </bytecodeTargetLevel>
   </component>
