@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="gmall-common-util" />
         <module name="gmall-api" />
         <module name="gmall-user" />
         <module name="demo" />
@@ -14,12 +15,14 @@
     <bytecodeTargetLevel target="8">
       <module name="demo" target="1.8" />
       <module name="gmall-api" target="1.8" />
+      <module name="gmall-common-util" target="1.8" />
       <module name="gmall-parent" target="1.8" />
       <module name="gmall-user" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gmall-common-util" options="-parameters" />
       <module name="gmall-user" options="-parameters" />
     </option>
   </component>
